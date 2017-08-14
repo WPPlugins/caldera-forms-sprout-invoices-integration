@@ -1,0 +1,131 @@
+/**
+ * Meta Style
+ */
+h2.cf_si_meta_title {
+  border-bottom: 1px solid #efefef;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+/**
+ * History
+ */
+
+#doc_history dl {
+	padding: .5em
+}
+
+#doc_history dt {
+	float: left;
+	clear: left;
+	width: 200px;
+	text-align: right;
+	font-weight: 700
+}
+
+#doc_history dt:after {
+	content: ":"
+}
+
+#doc_history {
+	margin: 6px auto;
+	width: auto;
+}
+
+#doc_history dd {
+	margin-bottom: 15px;
+	padding-left: 20px;
+	border-left: 1px solid #ddd;
+	min-height: 60px;
+	margin-left: 220px;
+}
+
+#doc_history dt {
+	padding-top: 20px
+}
+
+#doc_history dd:first-of-type p {
+	margin: 0;
+	margin-top: -15px
+}
+
+#doc_history dd {
+	padding-top: 8px
+}
+
+#doc_history dt:after {
+	content: ''
+}
+
+#doc_history dd:after {
+	content: "\f140";
+	color: #ddd;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 2em/1 dashicons;
+	vertical-align: top;
+	position: relative;
+	left: -34px;
+	bottom: -15px
+}
+
+#doc_history dd:first-of-type:before {
+	font-family: "sproutapps-ff" !important;
+	content: '\f10a';
+	color: #ddd;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 2em/1 dashicons;
+	vertical-align: top;
+	position: relative;
+	left: -35px;
+	top: -40px;
+}
+
+#doc_history dt .history_date {
+	font-weight: 400;
+	font-size: .9em
+}
+
+#doc_history dt span.history_status:before {
+	content: '\f464';
+	color: #ddd;
+	font: 400 20px/1 dashicons;
+	speak: none;
+	display: inline-block;
+	padding: 0 2px 0 0;
+	top: 0;
+	right: 3px;
+	position: relative;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none!important
+}
+
+#doc_history dt span.si_notification:before {
+	content: '\f466'
+}
+
+#doc_history dt span.si_viewed_status_update:before {
+	content: '\f177'
+}
+
+#doc_history dt span.si_history_status_update:before {
+	content: '\f173'
+}
+
+#doc_history dt span.payment:before {
+	font-family: "sproutapps-ff";
+	content: "\f100";
+	margin-top: -4px;
+}
+
+#doc_history dt span.si_invoice_created:before {
+	font-family: "sproutapps-ff";
+	content: "\f109";
+	margin-top: -4px;
+}
+
+#doc_history dt span.creation_event:before {
+	content: ''
+}
